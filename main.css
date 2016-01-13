@@ -1,4 +1,5 @@
 h1 {color:black; font-family: Avenir; text-transform: uppercase; font-size: 72px;}
 body {background: white;}
-p {color:black; font-family:avenir; text-transform: uppercase;}
-ul {color:black; font-family: avenir}
+ptag1 {color:black; font-family:avenir; text-transform: uppercase;}
+ptag2 {color:black; font-family:avenir;}
+ul {color:black; font-family: avenir;}

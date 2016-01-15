@@ -1,5 +1,17 @@
-h1 {color:black; font-family: Avenir; text-transform: uppercase; font-size: 72px;}
+header {color:black;
+    font-family: Avenir;
+    text-transform: uppercase;
+    font-size: 72px;
+}
+h1 {color:black; 
+    font-family: Avenir; 
+    text-transform: uppercase; 
+    font-size: 50px;
+}
 body {background: white;}
-ptag1 {color:black; font-family:avenir; text-transform: uppercase;}
+.class1 {color:grey;font-family:avenir;text-transform: uppercase;}
 ptag2 {color:black; font-family:avenir;}
-ul {color:black; font-family: avenir;}
+ul {
+    color:black;
+    font-family: avenir;
+}

@@ -1,12 +1,12 @@
 header {color:black;
     font-family: Avenir;
     text-transform: uppercase;
-    font-size: 72px;
+    font-size: 50px;
 }
 h1 {color:black; 
     font-family: Avenir; 
     text-transform: uppercase; 
-    font-size: 50px;
+    font-size: 36px;
 }
 body {background: white;}
 .class1 {color:grey;font-family:avenir;text-transform: uppercase;}

@@ -10,7 +10,6 @@ h1 {color:black;
 }
 body {background: white;}
 .class1 {color:grey;font-family:avenir;text-transform: uppercase;}
-ptag2 {color:black; font-family:avenir;}
 ul {
     color:black;
     font-family: avenir;
@@ -33,4 +32,9 @@ li a {
 li a:hover {
     background-color:#555;
     color:white;
+}
+section {
+    background-color: #f0f8ff;
+}
+p {font-family: Avenir;
 }

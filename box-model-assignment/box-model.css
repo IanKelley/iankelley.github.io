@@ -1,5 +1,6 @@
 body {
   margin: 20px;
+    font-family: sans-serif
 }
 
 * {
@@ -11,3 +12,24 @@ body {
   width: 800px;
   margin: 0 auto;
 }
+nav a {  
+    display: inline-block;
+    height: 60px;
+    background-color: slategray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    }
+header{
+    padding: 20px;
+    margin: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #ddd;
+    font-size: 24
+}
+h3 {font-size: 20
+     }

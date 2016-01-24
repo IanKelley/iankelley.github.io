@@ -23,13 +23,26 @@ nav a {
     font-size: 18px;
     color: white;
     text-decoration: none;
-    }
+}
 header{
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 20px;
+    border: 0px;
     background-color: #eeeeee;
-    border: 1px solid #ddd;
-    font-size: 24
+    font-size: 24;
 }
 h3 {font-size: 20
-     }
+}
+div img {
+    border-top: 2px dashed grey;
+    border-left: 2px dashed grey;
+    border-right: 2px dashed grey;
+    border-bottom: 2px dashed grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left:10px;
+}

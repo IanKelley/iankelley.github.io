@@ -43,8 +43,16 @@ header{
     background-color: #eeeeee;
     font-size: 24;
 }
-h3 {font-size: 20
+h1 {
+    margin: 10px;
+    margin-left: 0px;
 }
+h3 {
+    font-size: 20;
+    margin: 10px;
+    margin-left: 0px;
+}
+
 div img {
     border-top: 2px dashed grey;
     border-left: 2px dashed grey;
@@ -56,6 +64,7 @@ div img {
     padding-left:10px;
     margin-right: 20px;
     margin-left: 20px;
+    float: left;
 }
 p {
     display:block;   

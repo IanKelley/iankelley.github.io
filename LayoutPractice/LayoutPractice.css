@@ -4,6 +4,7 @@
 .main-container {
     width: 900px;
     margin: 0 auto 0 auto;
+    font-family: sans-serif
 }
 .promo-container {
     background-color: lightgrey;
@@ -19,18 +20,31 @@
 header {
     display: flex;
 }
-header a {
+.pill-button {
     display: inline-block;
     background: gray;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     color: white;
     text-decoration: none;
+
 }
 
+.promo {
+    background-color: white;
+    color:black;
+    font-size: 18px;
+    padding: 10px 40px 10px 40px;
+}
 /* big Promo */
 
 #big-promo {
     padding-top: 200px;
+}
+.promo-message {
+    width: 60%;
+    padding: 50px;
+    font-family: sans-serif;
+}
 
     

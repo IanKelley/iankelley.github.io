@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: sans-serif
+}
+.promo-container {
+    background-color: lightgrey;
+}
+
+.branding {
+    display: inline-block;
+    color: ghostwhite;
+    padding-left: 20px;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+}
+.header-name {
+    display: inline-block;
+    color: ghostwhite;
+    padding: 20px 30px 20px 30px;
+    margin-right: auto;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 16px;
+    
+}
+h1 {}
+
+.Nav-button {
+    display: inline-block;
+    padding: 0px 30px 0px 30px;
+    margin: 30px; 0px; 0px; 0px; 
+    color: ghostwhite;
+    text-decoration: none;
+    text-align: center;
+    font-family: avenir;
+    font-size: 14px;
+}
+
+

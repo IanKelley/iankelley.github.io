@@ -72,6 +72,13 @@ section {
 
 footer {
     display:inline-flex;
-    margin: 50px;
+    margin:0px 100px 0px 25px;
+    width: 900px;
+    padding: 10px;
+    border-top: 2px solid aliceblue;
+    font-family: athelas;
+    justify-content: center;
+    align-items: center;
+    color:gainsboro;
 }
 

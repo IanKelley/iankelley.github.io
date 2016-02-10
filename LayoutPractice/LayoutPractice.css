@@ -66,8 +66,9 @@ header {
     overflow: hidden;
 }
 .product-buy-it-now {
-    justify-content: center;
+    align-items: center;
 }
 .product-info {
     text-align: right;
+    padding-left: 20px;
 }

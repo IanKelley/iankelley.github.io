@@ -71,4 +71,10 @@ header {
 .product-info {
     text-align: right;
     padding-left: 20px;
+    
 }
+#product-reviews {
+    background-color: lightslategrey;
+    color:white;
+    padding: 50px;
+    text-align: center;

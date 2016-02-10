@@ -47,4 +47,27 @@ header {
     font-family: sans-serif;
 }
 
-    
+/* Product Features*/
+
+.product-features, .product-buy-it-now {
+    display: flex;
+}
+.feature {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature-image {
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.product-buy-it-now {
+    justify-content: center;
+}
+.product-info {
+    text-align: right;
+}

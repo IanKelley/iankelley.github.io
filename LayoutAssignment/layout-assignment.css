@@ -84,20 +84,18 @@
 
 .example-3{
     flex-wrap: wrap;
-    align-content: stretch;
+    align-content: flex-start;
     background: grey;
     border: solid 6px;
     margin-bottom: 130px;
 }
 .header {
-    display: flex;
     width: 920px;
     height: 120px;
     margin: 20px 20px 20px 20px;
     background-color: red;
 }
 .aside {
-    display: flex;
     width: 175px;
     height: 395px;
     background-color: green;
@@ -111,5 +109,4 @@
     height: 395px;
     background-color: blue;
     margin: 0px 20px 20px 0px;
-    
 }

@@ -5,25 +5,99 @@
     
 }
 .head {
-    width: 100px;
+    width: 125px;
     height: 100px;
     position: absolute;
     background: lightgrey;
     margin: auto;
     left: 0;
     right: 0;
+    top: 5px;
+    border-top: 5px solid slategrey;
 }
+
+
+.eye-right {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    right: 15px;
+    top: 15px
+}
+
+.eye-left {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    left: 15px;
+    top: 15px;
+}
+
+.mouth {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
 .body {
     width: 400px;
     height: 400px;
     border-radius: 50%;
     position: relative;
+    border: 10px solid slategrey;
     background: lightblue;
     margin: auto;
     top: 85px
-    
- 
 }
+
+.arm-right {
+    width: 75px;
+    height: 40px;
+    background: slategrey;
+    position: absolute;
+    right: 50px;
+    top: 200px;
+}
+
+.arm-left {
+    width: 75px;
+    height: 40px;
+    background: slategrey;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.hand-right {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: cornsilk;
+    position: absolute;
+    left: -20px;
+    top: 3px;
+}
+
+.hand-left {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: cornsilk;
+    position: absolute;
+    left: 60px;
+    top: 3px;
+}
+
 .leg-1 {
     width: 20px;
     height: 400px;
@@ -32,6 +106,7 @@
     position: relative;
     margin: auto;
     left: 100px;
+    top: -40px;
 }
 .leg-2 {
     width: 20px;
@@ -41,5 +116,18 @@
     position: relative;
     margin: auto;
     right: 100px;
-    bottom: 399px;
+    bottom: 435px;
+}
+
+.foot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background: slategrey;
+    top: 360px;
+    left: -25px;
+    border: 10px solid cornsilk;
+    margin: auto;
+    
 }

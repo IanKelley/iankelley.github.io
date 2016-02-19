@@ -1,0 +1,45 @@
+.robot {
+    position: relative;
+    width: 600px;
+    margin: 50px auto;
+    
+}
+.head {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: lightgrey;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.body {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    background: lightblue;
+    margin: auto;
+    top: 85px
+    
+ 
+}
+.leg-1 {
+    width: 20px;
+    height: 400px;
+    background: lightblue;
+    border-radius: 20%;
+    position: relative;
+    margin: auto;
+    left: 100px;
+}
+.leg-2 {
+    width: 20px;
+    height: 400px;
+    background: lightblue;
+    border-radius: 20%;
+    position: relative;
+    margin: auto;
+    right: 100px;
+    bottom: 399px;
+}

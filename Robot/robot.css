@@ -84,8 +84,9 @@
     border-radius: 50%;
     background: cornsilk;
     position: absolute;
-    left: -20px;
-    top: 3px;
+    left: -40px;
+    top: -7px;
+    border: 10px solid slategrey;
 }
 
 .hand-left {
@@ -95,7 +96,8 @@
     background: cornsilk;
     position: absolute;
     left: 60px;
-    top: 3px;
+    top: -7px;
+    border: 10px solid slategrey;
 }
 
 .leg-1 {
@@ -124,10 +126,39 @@
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    background: slategrey;
+    background: cornsilk;
     top: 360px;
     left: -25px;
-    border: 10px solid cornsilk;
+    border: 10px solid slategrey;
     margin: auto;
-    
+}
+
+#poop-top {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: brown;
+    position: relative;
+    bottom: 460px;
+    margin: auto;
+}
+
+#poop-mid {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: brown;
+    position: relative;
+    bottom: 460px;
+    margin: auto;
+}
+
+#poop-bot {
+    height: 25px;
+    width: 500px;
+    border-radius: 50%;
+    background: brown;
+    position: relative;
+    bottom: 475px;
+    margin: auto;
 }

@@ -83,16 +83,18 @@
 /* example 3*/
 
 .example-3{
-    flex-wrap: wrap;
-    background: grey;
     border: solid 6px;
     margin-bottom: 130px;
+    
 }
 .header {
-    width: 920px;
+    width: 906px;
     height: 120px;
     margin: 20px 20px 20px 20px;
     background-color: red;
+}
+.container-example{
+    display: flex;
 }
 .aside {
     width: 175px;

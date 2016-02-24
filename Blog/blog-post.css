@@ -6,8 +6,19 @@
     margin: auto;
     font-family: 'Permanent Marker', cursive;
     font-size: 72px;
+    word-spacing: 15px;
+    letter-spacing: 2px;
 }
 
-.h1 {
-    font-family: avenir, "arial", "sans-serif"
+h1 {
+    font-family: "avenir", "arial", "sans-serif";
+    font-weight: 100;
+    
+}
+
+p {
+    font-family: "avenir", "arial", "sans-serif";
+    letter-spacing: inherit;
+    line-height: 1.8;
+    font-weight: 400;
 }

@@ -3,16 +3,25 @@
     margin: 0 auto;
 }
 .header {
-    margin: auto;
+    margin: 0px auto 20px auto;
     font-family: 'Permanent Marker', cursive;
     font-size: 72px;
     word-spacing: 15px;
     letter-spacing: 2px;
+    font-variant: small-caps;
+    text-shadow: 2px 4px 8px;
+    text-align: center;
+    word-spacing: 20px;
+    text-decoration: underline;
 }
 
 h1 {
     font-family: "avenir", "arial", "sans-serif";
     font-weight: 100;
+    text-align: left;
+    margin: 0 auto 20px auto;
+    text-transform: lowercase;
+    font-style: normal;
     
 }
 
@@ -21,4 +30,6 @@ p {
     letter-spacing: inherit;
     line-height: 1.8;
     font-weight: 400;
+    text-align: left;
+    text-indent: 10px;
 }

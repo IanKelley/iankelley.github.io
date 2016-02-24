@@ -1,0 +1,13 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.header {
+    margin: auto;
+    font-family: "Indie Flower", cursive;
+    font-size: 72px;
+}
+
+.h1 {
+    font-family: avenir, "arial", "sans-serif"
+}

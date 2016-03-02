@@ -4,10 +4,13 @@
 .main-container {
     width: 900px;
     margin: 0 auto 0 auto;
-    font-family: sans-serif
+    font-family: 'Cabin', "avenir", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
 }
 .promo-container {
-    background-color: lightgrey;
+    background-image: url(snow-cabin.jpg);
+    background-size: cover;
 }
 
 .branding {
@@ -27,11 +30,12 @@ header {
     border-radius: 20px;
     color: white;
     text-decoration: none;
+    text-transform: lowercase;
 
 }
 
 .promo {
-    background-color: white;
+    background-color: aliceblue;
     color:black;
     font-size: 18px;
     padding: 10px 40px 10px 40px;
@@ -40,11 +44,26 @@ header {
 
 #big-promo {
     padding-top: 200px;
+    color: black;
 }
+#big-promo h1{
+    text-transform: uppercase; 
+    color: yellow;
+    font-size: 28px
+}
+
+#big-promo p{ 
+    background-color: aliceblue;
+    padding: 20px;
+    color-black;
+}
+
+
 .promo-message {
     width: 60%;
     padding: 50px;
-    font-family: sans-serif;
+    font-family: 'Cabin', "avenir", "arial", sans-serif;
+    line-height: 1.4;
 }
 
 /* Product Features*/
@@ -55,6 +74,7 @@ header {
 .feature {
     text-align: center;
     padding: 20px;
+    line-height: 1.4;
 }
 
 .feature-image {
@@ -71,6 +91,7 @@ header {
 .product-info {
     text-align: right;
     padding-left: 20px;
+    line-height: 1.4;
     
 }
 #product-reviews {
@@ -78,6 +99,8 @@ header {
     color:white;
     padding: 50px;
     text-align: center;
+    margin: 20px 0 10px 0;
+    line-height: 1.4;
 }
 /* Footer*/
 

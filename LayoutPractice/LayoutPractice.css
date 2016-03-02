@@ -77,14 +77,39 @@ header {
     line-height: 1.4;
 }
 
+
 .feature-image {
-    background: red;
+    background-image: url(pug-blanket.jpg);
+    background-size:cover;
+    background-position: center;
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
     border-radius: 50%;
     overflow: hidden;
 }
+.bear {
+    background-image: url(mama-bear.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.vulture {
+    background-image: url(vulture.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .product-buy-it-now {
     align-items: center;
 }

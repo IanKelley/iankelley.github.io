@@ -78,7 +78,7 @@ header {
 }
 
 
-.feature-image {
+.pug {
     background-image: url(pug-blanket.jpg);
     background-size:cover;
     background-position: center;
@@ -117,7 +117,14 @@ header {
     text-align: right;
     padding-left: 20px;
     line-height: 1.4;
-    
+    flex: 1;
+}
+
+.fawn {
+    background-image: url(fawn.jpg);
+    background-size: cover;
+    width: 465px;
+    height: 275px;
 }
 #product-reviews {
     background-color: lightslategrey;

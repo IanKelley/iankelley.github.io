@@ -23,6 +23,9 @@
 header {
     display: flex;
 }
+a:hover {
+    background-color: aqua;
+}
 .pill-button {
     display: inline-block;
     background: gray;
@@ -120,21 +123,36 @@ header {
     flex: 1;
 }
 
-.fawn {
-    background-image: url(fawn.jpg);
+.sunset-man {
+    background-image: url(sunset-man.jpg);
     background-size: cover;
+    background-position: center;
     width: 465px;
     height: 275px;
 }
 #product-reviews {
     background-color: lightslategrey;
+    background-image: url(grey-trees.jpg);
+    background-size: cover;
+    background-position: center;
     color:white;
     padding: 50px;
     text-align: center;
     margin: 20px 0 10px 0;
     line-height: 1.4;
 }
+
+.feature-image {
+    background-image: url(red-lip.jpg);
+    background-size:cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
 /* Footer*/
+
 
 footer {
     display:flex;

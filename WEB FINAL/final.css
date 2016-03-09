@@ -1,0 +1,12 @@
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: 'Cabin', "avenir", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.sign-up-today-container {
+    background-image: url(Photos/snow-cabin.jpg);
+    background-size: cover;
+}

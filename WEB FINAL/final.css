@@ -10,3 +10,29 @@
     background-image: url(Photos/snow-cabin.jpg);
     background-size: cover;
 }
+.branding {
+    position: relative;
+    left: 410px;
+    width: 150px;
+    height: 45px;
+}
+
+header {
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+a:hover {
+    background-color: aqua;
+}
+.nav-button {
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    margin: 10px; 
+}
+
+#big-promo {
+    padding-top: 200px;
+    color: black;
+}

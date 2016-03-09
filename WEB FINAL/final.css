@@ -7,8 +7,7 @@
 }
 
 .sign-up-today-container {
-    background-image: url(Photos/snow-cabin.jpg);
-    background-size: cover;
+    
 }
 .branding {
     position: relative;
@@ -32,7 +31,22 @@ a:hover {
     margin: 10px; 
 }
 
-#big-promo {
-    padding-top: 200px;
+#sign-up-today {
+    padding-top: 550px;
     color: black;
+    background-image: url(Photos/snow-cabin.jpg);
+    background-size: cover;
+}
+
+h1 {
+    font-family: "cabin", "avenir", "arial", "sans-serif";
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+}
+p {
+    font-family: "cabin", "avenir", "arial", "sans-serif";
+    text-align: center;
+    w
 }

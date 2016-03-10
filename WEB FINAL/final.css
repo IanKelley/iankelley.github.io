@@ -31,22 +31,36 @@ a:hover {
     margin: 10px; 
 }
 
-#sign-up-today {
-    padding-top: 550px;
-    color: black;
+.sign-up-today {
+    display: flex;
+    width: auto;
+    height: 575px;
     background-image: url(Photos/snow-cabin.jpg);
     background-size: cover;
 }
 
+.today{
+    margin: auto;
+    text-align: center;
+    height: 225px;
+    width: 450px;
+    background-color: black;
+    color: ghostwhite;
+    padding: 0 45px 0 45px
+ 
+}
 h1 {
     font-family: "cabin", "avenir", "arial", "sans-serif";
     font-size: 36px;
-    text-align: center;
-    position: relative;
-    justify-content: center;
 }
+    
 p {
     font-family: "cabin", "avenir", "arial", "sans-serif";
-    text-align: center;
-    w
+ 
+}
+
+.feature-container {
+    display: flex;
+    margin: 70px 20px 20px 20px;
+    justify-content: space-between
 }

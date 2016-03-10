@@ -22,7 +22,7 @@ header {
     padding: 20px;
 }
 a:hover {
-    background-color: aqua;
+    background-color: lightslategray;
 }
 .nav-button {
     display: inline-flex;

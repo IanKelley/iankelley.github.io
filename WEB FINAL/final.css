@@ -130,3 +130,9 @@ p {
     line-height: 25px;
     letter-spacing: 1.3px;
 }
+
+.feature-end{ 
+    padding-left: 20px;
+    line-height: 1.4;
+    float: left;
+}

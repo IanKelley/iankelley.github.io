@@ -156,6 +156,7 @@ p {
     justify-content: center;
     color: black;
 }
+
 footer{
     display: flex;
     justify-content: flex-end;

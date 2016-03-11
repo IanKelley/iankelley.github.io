@@ -1,0 +1,107 @@
+.main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    font-family: 'Cabin', "avenir", "arial", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+header {
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+a:hover {
+    background-color: lightslategray;
+}
+.nav-button {
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    margin: 10px; 
+}
+.branding {
+    position: relative;
+    left: 410px;
+    width: 150px;
+    height: 45px;
+}
+h1 {
+    font-family: "cabin", "avenir", "arial", "sans-serif";
+    font-size: 36px;
+}
+    
+p {
+    font-family: "cabin", "avenir", "arial", "sans-serif";
+}
+.feature-page-container{
+    display: flex;
+    background-color: azure;
+    margin: 20px;
+}
+
+.feature-page-image-1{
+    justify-content: space-between;
+    margin: auto;
+    padding-right: 10px;
+    
+}
+.feature-page-image-1 h3 {
+    float: right;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+}
+.feature-page-image-1 p{
+    float: right;
+    font-size: 13px;
+    width: 50%;
+    position: relative;
+    bottom: 90px;
+    
+}
+.feature-page-image-2{
+    justify-content: space-between;
+    margin: auto;
+    padding-right: 10px;
+}
+.feature-page-image-2 h3{
+    float: right;
+    position: relative;
+    right: 135px;
+    bottom: 20px;
+}
+.feature-page-image-2 p{
+    float: right;
+    font-size: 13px;
+    width: 50%;
+    position: relative;
+    bottom: 90px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    width: 900px;
+    height: 75px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: auto;
+    
+}
+footer a{
+    font-family: "cabin" "Avenir" "Arial" "Sans-serif";
+    align-content: flex-end;
+    justify-content: flex-end;
+    color: ghostwhite;
+    position: relative;
+    left: 35px;
+    margin: 5px;
+
+}
+.footer-links{
+    color: ghostwhite;
+    align-content: flex-end;
+    text-align: left;
+    padding: 20px;
+}

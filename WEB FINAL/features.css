@@ -34,50 +34,13 @@ h1 {
 p {
     font-family: "cabin", "avenir", "arial", "sans-serif";
 }
-.feature-page-container{
+.feature-page-row-1{
     display: flex;
     background-color: azure;
     margin: 20px;
+    justify-content: space-around;
 }
 
-.feature-page-image-1{
-    justify-content: space-between;
-    margin: auto;
-    padding-right: 10px;
-    
-}
-.feature-page-image-1 h3 {
-    float: right;
-    position: relative;
-    right: 150px;
-    bottom: 20px;
-}
-.feature-page-image-1 p{
-    float: right;
-    font-size: 13px;
-    width: 50%;
-    position: relative;
-    bottom: 90px;
-    
-}
-.feature-page-image-2{
-    justify-content: space-between;
-    margin: auto;
-    padding-right: 10px;
-}
-.feature-page-image-2 h3{
-    float: right;
-    position: relative;
-    right: 135px;
-    bottom: 20px;
-}
-.feature-page-image-2 p{
-    float: right;
-    font-size: 13px;
-    width: 50%;
-    position: relative;
-    bottom: 90px;
-}
 footer{
     display: flex;
     justify-content: flex-end;

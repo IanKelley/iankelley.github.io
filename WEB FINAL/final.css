@@ -79,6 +79,9 @@ p {
 }
 .pricing-button {
     justify-content: center;
+    color: ghostwhite;
+    text-decoration: none;
+    letter-spacing: 2.3px;
 }
 
 

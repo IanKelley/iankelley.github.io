@@ -144,6 +144,15 @@ p {
     line-height: 1.4;
     float: left;
 }
+.feature-button{
+    font-size: 24px;
+    text-decoration: none;
+    position: relative;
+    bottom: 125px;
+    left: 125px;
+    justify-content: center;
+    color: black;
+}
 footer{
     display: flex;
     justify-content: flex-end;
@@ -153,9 +162,9 @@ footer{
     padding-top: 2px;
     padding-bottom: 20px;
     
-    
 }
 footer a{
+    font-family: "cabin" "Avenir" "Arial" "Sans-serif";
     align-content: flex-end;
     justify-content: flex-end;
     color: ghostwhite;

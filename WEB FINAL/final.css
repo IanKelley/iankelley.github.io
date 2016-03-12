@@ -70,9 +70,11 @@ p {
     align-content: center;
     position: relative;
     top: 340px;
-    right: 150px;
+    right: 200px;
     padding-top: 15px;
-    border-radius: 50px;
+    width: 190px;
+    border-color: white;
+    border-width: 5px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     

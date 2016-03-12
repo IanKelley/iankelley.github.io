@@ -12,7 +12,8 @@ header {
     padding: 20px;
 }
 a:hover {
-    background-color: lightslategray;
+    background-color: gray;
+    text-decoration: none;
 }
 .nav-button {
     display: inline-flex;
@@ -40,22 +41,11 @@ p {
 }
 .feature-page-row-1{
     display: flex;
-
     margin: 20px;
     justify-content: space-around;
 }
 
-footer{
-    display: flex;
-    justify-content: flex-end;
-    background-color: lightgray;
-    width: 900px;
-    height: 75px;
-    padding-top: 2px;
-    padding-bottom: 20px;
-    margin: auto;
-    
-}
+
 
 .feature-image-big{
     margin: 60px 20px 20px 20px;
@@ -88,12 +78,21 @@ footer{
     border-width: 5px;
     font-size: 20px;
     text-transform: uppercase;
-    
-   
 }
 
 .feature-image-big p{
     font-size: 16px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    width: 900px;
+    height: 75px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: auto;
+    
 }
 footer a{
     font-family: "cabin", "Avenir", "Arial", "Sans-serif";

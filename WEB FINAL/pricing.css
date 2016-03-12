@@ -68,6 +68,7 @@ p {
     font-family: "cabin", "avenir", "arial", "sans-serif";
     font-size: 13px;
     text-align: center;
+    padding: 0 10px 0 10px;
 }
 .buynow-button{
     display: flex;
@@ -89,11 +90,31 @@ p {
     text-transform: uppercase;
     
 }
+.blog-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2.3px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 90px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: pink;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
  a:hover buynow-button{
     background-color: aliceblue;
 }
 
 .not-convinced h1{
+    padding-top: 40px;
     font-size: 36px;
 }
 .not-convinced p{
@@ -101,5 +122,31 @@ p {
     width: 400px;
     position: relative;
     left: 245px;
+    padding-bottom: 60px;
 }
+footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    width: 900px;
+    height: 75px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+footer a{
+    font-family: "cabin", "Avenir", "Arial", "Sans-serif";
+    align-content: flex-end;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+    left: -5px;
+    margin: 5px;
+
+}
+.footer-links{
+    color: white;
+    align-content: flex-end;
+    text-align: left;
+    padding: 20px;
 }

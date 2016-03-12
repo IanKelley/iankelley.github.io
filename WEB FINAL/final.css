@@ -171,14 +171,14 @@ footer a{
     font-family: "cabin" "Avenir" "Arial" "Sans-serif";
     align-content: flex-end;
     justify-content: flex-end;
-    color: ghostwhite;
+    color: white;
     position: relative;
     left: 35px;
     margin: 5px;
 
 }
 .footer-links{
-    color: ghostwhite;
+    color: white;
     align-content: flex-end;
     text-align: left;
     padding: 20px;

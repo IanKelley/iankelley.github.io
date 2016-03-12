@@ -26,17 +26,21 @@ a:hover {
     width: 150px;
     height: 45px;
 }
-h1 {
+h3 {
     font-family: "cabin", "avenir", "arial", "sans-serif";
-    font-size: 36px;
+    font-size: 20px;
+    text-align: center;
+    
 }
     
 p {
     font-family: "cabin", "avenir", "arial", "sans-serif";
+    font-size: 13px;
+    text-align: center;
 }
 .feature-page-row-1{
     display: flex;
-    background-color: azure;
+
     margin: 20px;
     justify-content: space-around;
 }
@@ -51,6 +55,14 @@ footer{
     padding-bottom: 20px;
     margin: auto;
     
+}
+
+.feature-image-big{
+    margin: 60px 20px 20px 20px;
+    height: 425px;
+    background-image: url(Photos/cabin-rental-2.jpg);
+    background-size:cover;
+    background-position: bottom;
 }
 footer a{
     font-family: "cabin" "Avenir" "Arial" "Sans-serif";
